@@ -10,6 +10,10 @@ This browser based web application connects local store owners with customers al
 
 Justin Yoon
 	- new_pickup_order.html
+Alberto Javier 
+	- Edited index page and created business registration page.
+Ross Doria 
+	-added create-list.html to directory
 	
 ## Technologies
 Technologies used for this project:
