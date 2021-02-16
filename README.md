@@ -6,7 +6,9 @@
 
 ## General Info
 This browser based web application to ...
-	
+
+Edited index page and created business registration page.
+
 ## Technologies
 Technologies used for this project:
 * HTML, CSS
