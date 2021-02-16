@@ -7,8 +7,10 @@
 ## General Info
 This browser based web application to ...
 
-Edited index page and created business registration page.
+Alberto Javier Edited index page and created business registration page.
 
+Ross Doria added create-list.html to directory
+	
 ## Technologies
 Technologies used for this project:
 * HTML, CSS
