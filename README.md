@@ -6,6 +6,8 @@
 
 ## General Info
 This browser based web application to ...
+
+Ross Doria added create-list.html to directory
 	
 ## Technologies
 Technologies used for this project:
