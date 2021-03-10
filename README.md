@@ -13,7 +13,9 @@ Justin Yoon
 Alberto Javier 
 	- Edited index page and created business registration page.
 Ross Doria 
-	-added create-list.html to directory
+	- added create-list.html to directory
+    - added login.html to directory         2021-03-09
+    - added firebase_api_local_stores.js    2021-03-09
 	
 ## Technologies
 Technologies used for this project:
