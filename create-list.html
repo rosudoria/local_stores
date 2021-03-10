@@ -46,12 +46,48 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Local Stores</a>
         </div>
-      </nav>
-
+    </nav>
+    <!---Page Header----------------------------------------------------->
     <div class="container">
         <h1>Welcome, Shopper!</h1>
-        <p>This is your create a shopping list page</p>
+        <p>Search for products to add to your list..</p>
     </div>
+    <!--Search Bar------------------------------------------------------->
+    <div class="container-fluid mb-3">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search for products" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+    <!--Name of list------------------------------------------------------>
+    <div class="container-fluid form-floating mb-3">
+        <input type="list" class="form-control" id="floatingInput" placeholder="Name of your list">
+    </div>
+    <!--List of products-------------------------------------------------->
+    <div class="container-fluid">
+        <ul class="list-group list-group-horizontal-xxl mb-3">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">Quantity</li>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-danger">-</button>
+                <button type="button" class="btn btn-success">+</button>
+            </div>
+        </ul>
+        <ul class="list-group list-group-horizontal-xxl mb-3">
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">Quantity</li>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-danger">-</button>
+                <button type="button" class="btn btn-success">+</button>
+            </div>
+        </ul>
+    </div>
+    <!--Compare prices and back button----------------------------------->
+    <div class="container-fluid">
+        <button type="button" class="btn btn-danger">Back</button>
+        <button type="button" class="btn btn-info">Compare store prices</button>
+    </div>
+
     <!----------------------------------------------->
     <!-- JS: Boostrap, Firebase, API related    -->
     <!----------------------------------------------->

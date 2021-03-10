@@ -16,6 +16,7 @@ Ross Doria
 	- added create-list.html to directory
     - added login.html to directory         2021-03-09
     - added firebase_api_local_stores.js    2021-03-09
+    - modified creat-list.html              2021-03-10
 	
 ## Technologies
 Technologies used for this project:
