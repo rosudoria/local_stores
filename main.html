@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Local Stores</title>
+    <meta name="comp1800 boilerplate code" content="my bcit project">
+    <meta name="author" content="BCIT">
+
+    <!-- Bootstrap for Mobile-first, and JQuery -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional styles and scripts of your own -->
+    <link rel="stylesheet" href="./styles/main.css">
+
+</head>
+
+<body>
+
+    <!-------------------------------------->
+    <!-- The following is HTML for layout -->
+    <!-------------------------------------->
+    <!-- Header Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Local Stores</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">my data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">my profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">login/signup</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Local Stores</a>
+        </div>
+      </nav>
+    <div id="main-body">
+        <div id="news-div" class="container">
+            <div class="container">
+                <div class="row bootstrap snippets bootdey">
+                    <div class="col-md-7 col-xs-12 col-md-offset-3">
+                      <div class="panel" id="daily-feed">
+                        <div class="panel-heading">
+                          <h3 class="panel-title">Daily feed</h3>
+                        </div>
+                        <div class="panel-body">
+                          <ul id="news-ul" class="list-group list-group-dividered list-group-full">
+                          </ul>
+                          <button type="button" class="btn btn-block btn-primary waves-effect waves-light"><i class="icon md-chevron-down margin-right-5" aria-hidden="true"></i>Show
+                            More</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div id="shopping-div" class="container">
+            <a id="shopping-btn" class="btn btn-primary" href="./create-list.html" role="button">Start Shopping</a>
+        </div>
+    </div>
+    <!----------------------------------------------->
+    <!-- JS: Boostrap, Firebase, API related    -->
+    <!----------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+    <!--------------------------------------------------------------------->
+    <!-- JS files: Your own JavaScript functions included here    -->
+    <!--------------------------------------------------------------------->
+    <script src="./scripts/firebase_api_local_stores.js"></script>
+    <script src="./scripts/indexCreation.js"></script>
+</body>
+</html>
